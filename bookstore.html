@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link href="./css/bookstore.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <title>BookRacci</title>
+  </head>
+  <body>
+    <nav class="my-nav navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo-name logo-hover" href="#">BookRacci</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link a-hover text-uppercase"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item a-hover">
+              <a class="nav-link text-uppercase" href="./bookstore.html"
+                >Bookstore</a
+              >
+            </li>
+            <li class="nav-item dropdown a-hover">
+              <a
+                class="nav-link dropdown-toggle a-hover dropbtn"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                VC ADD-ONS
+              </a>
+              <ul class="dropdown-menu dropdown-content">
+                <li>
+                  <a class="dropdown-item" href="#">VC- CALL TO ACTION</a>
+                </li>
+                <li><a class="dropdown-item" href="#">VC- PRODUCTS</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">VC- POST GRIDS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link a-hover text-uppercase"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link a-hover text-uppercase"
+                aria-current="page"
+                href="./register.html"
+                >Register</a
+              >
+            </li>
+          </ul>
+          <div class="cart">
+            <i class="fas fa-shopping-cart fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="register">
+      <h2>Bookstore</h2>
+      <p class="homeregister">Home/Bookstore</p>
+    </div>
+    <div class="search-section">
+      <div class="book-title">
+        <input
+          class="button"
+          type="text"
+          name="search"
+          placeholder="Book Title"
+        />
+      </div>
+      <div class="book-category">
+        <select class="btn-selection">
+          <option value="">Book Category</option>
+          <option value="0">Drama</option>
+          <option value="1">Lifestyle</option>
+          <option value="2">Romance</option>
+          <option value="3">Inspirational</option>
+          <option value="4">Thriller</option>
+        </select>
+      </div>
+      <div class="book-author">
+        <select class="btn-selection">
+          <option value="">Book Author</option>
+          <option value="0">Shakespear</option>
+          <option value="1">Khuram Nawaz</option>
+          <option value="2">Umaira Ahmad</option>
+        </select>
+      </div>
+
+      <a class="btn-large" href="#"
+        ><i class="fas fa-search" aria-hidden="true"></i>FIND BOOK</a
+      >
+    </div>
+
+    <div class="products-container">
+      <div class="products-list">
+        <div class="rows">
+          <div class="row1">
+            <div class="item1">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-23-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">A.B. Salman</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+
+            <div class="item2">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-22-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">The Dead</h2>
+              <p class="item-author">Zaid Haris</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+
+            <div class="item3">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-21-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">See Me</h2>
+              <p class="item-author">Atiqa Arslan</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item4">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-20-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Ocean</h2>
+              <p class="item-author">Brian William</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="item1">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-19-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item2">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-18-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item3">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-17-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item4">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-16-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+          </div>
+          <div class="row3">
+            <div class="item1">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-15-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item2">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-14-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item3">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-13-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Business Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+            <div class="item4">
+              <div class="images">
+                <img
+                  class="item-img"
+                  width="250"
+                  height="333"
+                  src="./bookstore/book-12-250x333.jpg"
+                />
+              </div>
+              <h2 class="item-title">Lie Management</h2>
+              <p class="item-author">Sufi A.</p>
+              <h2 class="item-price">$9.00</h2>
+              <div class="item-button">
+                <a href="#" class="item-button1"> DETAIL</a>
+                <a href="#" class="item-button2">BUY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">Copyright © BookRacci 2021</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

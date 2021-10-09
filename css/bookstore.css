@@ -1,0 +1,199 @@
+* {
+  background-size: cover;
+  outline: none;
+  background-size: cover;
+}
+.my-nav {
+  z-index: 1;
+  background-color: #2f2b35;
+}
+
+/* Bookracci name settings */
+.logo-hover {
+  background-color: #50646400;
+}
+.logo-hover:hover {
+  color: white;
+}
+
+/* immediately below navbar settings */
+.register {
+  width: 100%;
+  background: #515570;
+  padding-top: 3.5%;
+  padding-bottom: 2.9%;
+}
+.homeregister {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+/* general text-settings */
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 35px;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #2f2b35b9;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+/* footer */
+.footer {
+  margin-top: 10%;
+  height: 184px;
+}
+
+/* products settings */
+.products-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  margin-top: 2.5%;
+}
+
+.rows {
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 {
+  width: 86%;
+  margin-top: 60px;
+  margin-left: 5%;
+  padding: 30px;
+  display: flex;
+}
+.row2 {
+  width: 86%;
+  margin-top: 3px;
+  margin-left: 5%;
+  padding: 30px;
+  display: flex;
+}
+.row3 {
+  width: 86%;
+  margin-top: 3px;
+  margin-left: 5%;
+  padding: 30px;
+  display: flex;
+}
+.item1 {
+  width: 285px;
+  min-height: auto;
+  background-color: white;
+  margin-left: 48px;
+  border-top: 8px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+}
+.item2 {
+  width: 285px;
+  min-height: auto;
+  background-color: white;
+  margin-left: 20px;
+  border-top: 8px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+}
+.item3 {
+  width: 285px;
+  min-height: auto;
+  background-color: white;
+  margin-left: 20px;
+  border-top: 8px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+}
+.item4 {
+  width: 285px;
+  min-height: auto;
+  background-color: white;
+  margin-left: 20px;
+  border-top: 8px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+}
+
+.item-img {
+  box-shadow: 2px 2px 7px rgb(0 0 0 / 30%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item-title {
+  padding: 1.5em 0.5em 0.5em 0;
+  margin: 0;
+  font-size: 1em;
+  color: #222222f8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+.item-author {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  color: #485f668e;
+}
+.item-price {
+  padding: 0.2em 0.5em 0.5em 0;
+  margin: 0;
+  font-size: 1.5em;
+  color: #222222cc;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+.item-button {
+  width: 80%;
+  display: block;
+
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+  border: 1px solid#bfc7c8;
+  border-radius: 20px;
+  display: flex;
+}
+.item-button1 {
+  width: 50%;
+  color: #2f2b35a2;
+  margin-top: 0px;
+  padding: 5px;
+  margin-bottom: 0px;
+  border-right: 1px solid #bfc7c8;
+  text-align: center;
+}
+.item-button1:hover {
+  color: #2fbbb2;
+}
+
+.item-button2 {
+  width: 50%;
+  color: #2f2b35a2;
+  margin-top: 0px;
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.item-button2:hover {
+  color: #2fbbb2;
+}

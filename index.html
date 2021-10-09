@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=PT+Serif&display=swap" rel="stylesheet">       <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+
+    <title>BookRacci</title>
+  </head>
+  <body>
+    <nav class="my-nav navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo-name logo-hover" href="#">BookRacci</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a
+                class="nav-link active a-hover text-uppercase"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item a-hover">
+              <a class="nav-link text-uppercase" href="./bookstore.html">Bookstore</a>
+            </li>
+            <li class="nav-item dropdown a-hover">
+              <a
+                class="nav-link dropdown-toggle a-hover dropbtn"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                VC ADD-ONS
+              </a>
+              <ul class="dropdown-menu dropdown-content">
+                <li>
+                  <a class="dropdown-item" href="#">VC- CALL TO ACTION</a>
+                </li>
+                <li><a class="dropdown-item" href="#">VC- PRODUCTS</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">VC- POST GRIDS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active a-hover text-uppercase"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active a-hover text-uppercase"
+                aria-current="page"
+                href="./register.html"
+                >Register</a
+              >
+            </li>
+          </ul>
+          <div class="cart">
+            <i class="fas fa-shopping-cart fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="my-crousel carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./homepage/1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="Heading">Keep Reading</h5>
+            <a class="placeholder-btn" href="#">See More</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./homepage/2..jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="Heading">Let's Writing</h5>
+            <a class="placeholder-btn" href="#">See More</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./homepage/3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="Heading">Start Reading</h5>
+            <a class="placeholder-btn" href="#">See More</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="btnn carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="btnn carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="search-section">
+      <div class="book-title">      
+          <input class="button" type="text" name="search" placeholder="Book Title" />
+      </div>
+      <div class="book-category"><select class="btn-selection">
+        <option value="">Book Category</option>
+        <option value="0">Drama</option>
+        <option value="1">Lifestyle</option>
+        <option value="2">Romance</option>
+        <option value="3">Inspirational</option>
+        <option value="4">Thriller</option>
+      </select></div>
+      <div class="book-author"><select class="btn-selection">
+        <option value="">Book Author</option>
+        <option value="0">Shakespear</option>
+        <option value="1">Khuram Nawaz</option>
+        <option value="2">Umaira Ahmad</option>
+      </select></div>
+      
+      <a class=" btn-large" href="#"><i class="fas fa-search"></i>FIND BOOK</a>
+    </div>
+    <div class="home1">
+      <p class="text-big">Bring You The Best Idea<br/>You'll Ever Get</h1>
+      <p class="text-italic">Bring you the best idea you’ll ever get tempus ipsum ac, sodales libero nam quam odio</p>
+    </div>
+    <div class="home2-1">
+        
+        <img width="750" height="653" src="./homepage/home2-cover-01.png" sizes="(max-width: 750px) 100vw, 750px">
+    </div>
+
+    <div class="home2-2">
+        <div class="home2-2-1"><span class="btn-home2-2">COVER</span>
+        <p class="text-default">Number One <br/> Hard Cover Paper <br/>Quality</p>
+        <p class="text-different">From advanced selectors<br/> to generated content to <br/>web fonts, and from <br/>gradients, shadows</p>
+        <a class="btn-home2-2_1" href="#">Learn More</a></div>
+
+        <div class="home2-2-2"><span class="btn-home2-2">PAPER</span>
+        <p class="text-default">High-quality<br/> paper and <br/>printing materials</p>
+        <p class="text-different">From advanced selectors<br/> to generated content to<br/> web fonts, and from <br/>gradients, shadows.</p>
+        <a class="btn-home2-2_1" href="#">Learn More</a></div> 
+    </div>
+    <div class="home3">
+        <div class="home3-1"> <p class="text-default">MOBILE APP</p>
+        <p class="text-big">Access Anywhere</p>
+        <p class="text-default">We have an app for all the books we have in our library, simply download the <br/>app and enjoy our vast collection of books anywhere you like</p></div>
+        <div class="stores">
+            <a href="#"><img  src="./homepage/home3-icon-windows.png" alt="windows" width="128" height="42"></a>
+            <a href="#"><img  src="./homepage/home3-icon-appstore.png" alt="app-store" width="128" height="42"></a>
+            <a href="#"><img src="./homepage/home3-icon-googleplay.png" alt="google-play" width="128" height="42"></a>
+        </div>
+        <img class="home3banner1" width="1140" height="340" src="./homepage/home3-banner-01.jpg" >
+    </div>
+    <div class="footer">
+
+        <p>Copyright © BookRacci 2021</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

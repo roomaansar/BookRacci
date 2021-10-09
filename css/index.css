@@ -1,0 +1,314 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+  outline: none;
+  background-size: cover;
+}
+.my-nav {
+  z-index: 1;
+  padding: 30px;
+  width: 100%;
+}
+
+/* Bookracci name settings */
+.logo-hover {
+  background-color: #50646400;
+}
+.logo-hover:hover {
+  color: white;
+}
+.logo-name {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  /* "Nunito", sans-serif */
+  font-weight: 700;
+  font-size: 45px;
+  margin-left: 5%;
+  letter-spacing: 0px;
+}
+
+/* navbar list settings */
+li {
+  padding-right: 6px;
+}
+.navbar-nav {
+  padding-left: 10%;
+  padding-top: 13px;
+}
+.nav-link {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #2fbbbb;
+}
+.nav-link:focus {
+  color: #2fbbbb;
+}
+/* dropdown settings */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2fbbbb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 4%;
+  margin-top: 4px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #2fbbbb;
+  color: rgb(240, 218, 218);
+}
+.dropdown-content a:focus {
+  background-color: #2fbbbb;
+  color: rgb(240, 218, 218);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.cart {
+  padding-top: 1%;
+  margin-right: 10%;
+}
+.fas {
+  color: white;
+}
+
+/* crousel */
+.my-crousel {
+  margin-top: -14%;
+}
+/* crousel text heading */
+.Heading {
+  margin-top: -37%;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+}
+/* crousel button settings */
+.placeholder-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-radius: 24px;
+  color: #ffffff;
+  background: #2f2b35;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.placeholder-btn:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* next previous buttons */
+.btnn {
+  width: 2%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-size: 70% 70%;
+}
+/* crousel indicators */
+.carousel-indicators [data-bs-target] {
+  width: 9px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: white;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #2fbbbb;
+}
+
+/* search-section */
+.search-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 9%;
+}
+/* search bookname */
+.book-title {
+  width: 25%;
+}
+#search {
+  padding: 6px;
+  border: 2px;
+  border-radius: 3px;
+}
+.button {
+  width: 90%;
+  padding: 6px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #eee;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+/* search bookcategory */
+.book-category {
+  width: 25%;
+}
+.btn-selection {
+  padding: 8px;
+  width: 90%;
+  background-color: #eee;
+  border: 1px solid #eee;
+  color: #08080885;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* search bookauthor */
+.book-author {
+  width: 25%;
+}
+/* find book */
+.btn-large {
+  background: #2f2b35;
+  padding-top: 4px;
+  margin-top: 4.5px;
+  width: 20%;
+  height: 25px;
+  text-align: center;
+  border-radius: 24px;
+  color: rgba(255, 255, 255, 0.884);
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.btn-large:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-search {
+  padding-right: 10px;
+}
+/* home1 settings */
+.home1 {
+  text-align: center;
+  margin-top: 7%;
+}
+.text-big {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 3.5rem;
+}
+.text-italic {
+  font-family: cursive;
+  font-style: italic;
+  color: #2f2b35ad;
+}
+/* home2 settings */
+
+.home2-1 {
+  z-index: 1;
+  margin-left: 23%;
+}
+.home2-2 {
+  width: 100%;
+  margin-top: -600px;
+  background: #f2e7d1 url("./homepage/home2-background-01.jpg") !important;
+  display: flex;
+  padding-top: 6%;
+  padding-bottom: 14%;
+}
+
+.home2-2-1 {
+  padding-left: 7%;
+  padding-top: 10px;
+}
+.home2-2-2 {
+  padding-left: 60%;
+}
+.text-default {
+  font-family: "Montserrat", sans-serif;
+  color: #2f2b35d2;
+  font-weight: 500;
+}
+.text-different {
+  font-family: "PT Serif", serif;
+  color: #2f2b35c4;
+}
+.btn-home2-2 {
+  text-decoration: none;
+  background-color: #2fbbbb;
+  color: white;
+  border-radius: 4px;
+  font-size: 9px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+.btn-home2-2_1 {
+  display: inline-block;
+  padding: 5px 20px;
+  margin-top: 5px;
+  border-radius: 24px;
+  border: 1px solid #485f668e;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.068);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-size: 13px;
+  color: #2f2b35a6;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-home2-2_1:hover {
+  background-color: #2f2b35;
+  color: white;
+}
+
+/* home3 settings */
+.home3 {
+  margin-top: 6%;
+  text-align: center;
+}
+.home3 .text-default {
+  margin-bottom: 0;
+  color: #2f2b35a9;
+  font-weight: 400;
+  margin-top: 4%;
+  font-size: 15px;
+}
+.stores {
+  padding-top: 4%;
+}
+.stores a {
+  padding-right: 1%;
+}
+.home3banner1 {
+  padding-top: 5%;
+}
+/* footer settings */
+.footer {
+  text-align: center;
+  padding: 5%;
+  background-color: #2f2b35;
+  color: white;
+  font-weight: 300;
+}
