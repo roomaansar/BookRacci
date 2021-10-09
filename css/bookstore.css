@@ -55,7 +55,7 @@ a {
 
 /* footer */
 .footer {
-  margin-top: 10%;
+  margin-top: 0%;
   height: 184px;
 }
 
@@ -66,6 +66,7 @@ a {
   font-family: "Montserrat", sans-serif;
   background-color: #eee;
   margin-top: 2.5%;
+  padding-bottom:65px;
 }
 
 .rows {
